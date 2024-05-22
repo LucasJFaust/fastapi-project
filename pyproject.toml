@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "fastapi-project"
+version = "0.1.0"
+description = ""
+authors = ["LucasJFaust <lucasjfm.eng@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.8.10"
+scikit-learn = "1.2.1"
+requests = "2.28.2"
+fastapi = "0.89.1"
+uvicorn = "0.20.0"
+pandas = "1.5.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
